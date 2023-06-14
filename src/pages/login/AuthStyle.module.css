@@ -1,0 +1,49 @@
+.Auth_form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    /* margin-top: -130px;
+    margin-bottom: -100px; */
+    height: 100vh;
+  }
+  
+  .Auth_form {
+    width: 450px;
+    box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: white;
+  }
+  
+  .Auth_form_content {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+  
+  .Auth_form_title {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 24px;
+    color: rgb(34, 34, 34);
+    font-weight: 800;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+  }
+
+  
+
+  @media screen and (max-width:676px) {
+    .Auth_form{
+      width: 75%;
+      margin-top: -6rem;
+    }
+
+    .myydivv{
+      display: none;
+    }
+  }

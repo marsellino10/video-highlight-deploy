@@ -1,0 +1,108 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Dancing+Script:wght@700&family=Epilogue:wght@500;700&family=Josefin+Sans:wght@300;400;600&family=Montserrat&family=Outfit:wght@400;700&display=swap');
+
+.vedio-highlight-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(-200px);
+    
+}
+
+.header-text{
+    font-family: 'Dancing Script', cursive;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.header-btn{
+    transition: transform 0.3s ease-in-out;
+}
+
+.header-btn:hover{
+    color: white;
+    transform: scaleX(1.1);
+}
+
+@media screen and (max-width:767px) {
+    .header-text{
+        font-size: 5rem;
+    }
+
+    
+}
+
+@media screen and (max-width:550px) {
+    .header-text{
+        font-size: 3rem;
+    }
+    .cover-pic{
+        width: 100% !important;
+        height: 35rem !important;
+    }
+} */
+
+.vedio-highlight-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-btn{
+    transition: transform 0.3s ease-in-out;
+}
+
+.header-btn:hover{
+    color: white;
+    
+}
+
+.headd{
+    display: flex;
+    
+}
+
+.feat{
+    margin-bottom: 1rem;
+}
+
+.head-text{
+    padding-left: 2rem;
+    padding-top: 4rem;
+    color: #6aac28;
+   
+}
+
+.header-text{
+    font-size: calc(1.475rem + 2.7vw);
+    font-weight: 700;
+    line-height: 1.25;
+    font-family: "Heebo", sans-serif;
+    margin-bottom: 4rem;
+}
+
+.feat{
+    display: flex;
+}
+
+@media screen and (max-width:1200px) {
+    .headd{
+        flex-direction: column !important;
+    }
+    .head-img{
+        width: 100%;
+    }
+    .head-text{
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 3rem;
+        padding-left: 0rem;
+    }
+    .feat{
+        display: none !important;
+    }
+    .header-text{
+        text-align: center ;
+    }
+}

@@ -1,0 +1,139 @@
+.profile-page{
+    margin: 2rem 0;
+}
+
+.profile-data{
+    margin-bottom: 5rem;
+    display: flex;
+}
+
+.profile-data{
+    justify-content: space-evenly;
+    margin: 1rem 5rem 5rem;
+    color: white;
+}
+
+button:hover{
+    background-color: gray;
+}
+
+.profile-img{
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+
+.profileName{
+    font-size: 2rem;
+}
+
+.mobile-data{
+    display: none;
+}
+
+.hrr{
+    display: none;
+}
+
+.vedio-states{
+    display: flex;
+    justify-content: center;
+    color: rgb(168, 168, 168);
+    cursor: pointer;
+    
+}
+
+.active{
+    border-top: 2px solid white;
+    margin-top: -0.5rem;
+    padding-top: 1rem;
+    color: white;
+}
+
+.vedio-cont{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+
+.vedio-card{
+    background-color: #1c1e21;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border-radius: 0.5rem;
+}
+
+.del{
+    color: white;
+    cursor: pointer;
+    
+}
+
+.paragraph-text {
+    max-width: 23rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+  }
+
+  .editLink{
+    color: unset !important;
+    text-decoration: none !important;
+  }
+
+  .editLink:hover{
+    color: unset !important;
+    text-decoration: none !important;
+  }
+
+@media screen and (max-width:768px){
+    .profile-data{
+        /* justify-content: flex-start; */
+        gap: 1rem;
+    }
+    .profile-img{
+        width: 10rem;
+        height: 10rem;
+    }
+    .profileName{
+        font-size: 1.5rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width:490px){
+    .profile-img{
+        width: 5rem;
+        height: 5rem;
+        margin-top: 1rem;
+        margin-left: -2rem;
+    }
+    .profile-data{
+        margin-bottom: 1rem;
+    }
+    .stat-data{
+        display: none;
+    }
+    .mobile-data{
+        display: flex;
+    }
+    .hrr{
+        display: block;
+    }
+    .mobile-data{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+}

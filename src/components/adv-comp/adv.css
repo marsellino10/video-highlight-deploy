@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Dancing+Script:wght@700&family=Epilogue:wght@500;700&family=Josefin+Sans:wght@300;400;600&family=Montserrat&family=Outfit:wght@400;700&display=swap');
+
+.vedio-highlight-adv{
+    background-color: #6aac28;
+    margin-top: 10rem;
+    width: 80%;
+    border-radius: 0.5rem;
+}
+
+
+.card-img-top{
+    width: 100% !important;
+    height: 10rem !important;
+}
+
+.card{
+    /* background-color: #6aac28 !important; */
+    border: none !important;
+    outline: none !important;
+    max-width: 16rem;
+}
+
+.card-body{
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center;
+    background-color: #336303;
+    color: white;
+}
+
+@media screen and (max-width:750px) {
+    .vedio-highlight-adv{
+        width: 100%;
+        border-radius: 0;
+        
+    }
+    .vedio-highlight-adv h1{
+        font-size: 2rem;
+    }
+}
+
+/*
+#0d3515
+#373737
+*/
